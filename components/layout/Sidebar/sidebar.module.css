@@ -1,0 +1,126 @@
+/* .sidebar {
+  width: 250px;
+  height: 1000rem !important;
+  background: linear-gradient(180deg, #d9d8d8 0%, rgba(0, 0, 0, 0) 100%);
+  padding: 20px;
+  box-sizing: border-box;
+}
+.buttonContainer {
+  margin-bottom: 20px;
+}
+.button {
+  width: 100%;
+  background: linear-gradient(90deg, #483de2 0%, #24ac00 100%);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebarList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebarItem {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  color:red
+}
+
+.sidebarLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #595959;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+ 
+}
+
+.profileIcon {
+  margin-right: 10px;
+}
+
+.arrowIcon {
+  margin-right: 10px;
+}
+.icon{
+  margin-right:10px;
+}
+.dropdownButton {
+  background-color: transparent;
+  width: 100%;
+  border:0px;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+} */
+/* Add these styles to your existing styles.css */
+.sidebar {
+  width: 278px;
+  background: linear-gradient(180deg, #d9d8d8 100%, #ffff 0%);
+  min-height: 100vh;
+  padding-top: 20px;
+  overflow-y: auto;
+}
+
+.sidebar_links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown_item {
+  color: #595959;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.dropdown_arrow {
+  margin-left: auto;
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.sub_items {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 30px;
+  display: none;
+}
+
+.sub_items li {
+  margin-bottom: 5px;
+}

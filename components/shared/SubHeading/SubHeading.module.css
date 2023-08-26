@@ -1,0 +1,25 @@
+/* SubHeading.css */
+.sub_heading {
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:24px;
+    line-height:33.48px;
+  }
+  
+  .total_records {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .action_button {
+    background-color: #00e833;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right:10px;
+  }
+  

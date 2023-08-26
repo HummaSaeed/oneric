@@ -1,0 +1,85 @@
+.container {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 50vh; */
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.option {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  width:100%;
+  
+}
+
+.active {
+  border-color: green;
+}
+
+.table {
+  background-color: #eeeeee;
+  width: 100%;
+  overflow: hidden;
+  border-collapse: collapse;
+  /* margin-top: 20px; */
+}
+
+.table th {
+  background-color: #454a5f;
+  color: white;
+  padding: 10px;
+}
+
+.table td {
+  background-color: transparent;
+  color: #171c26;
+  padding: 10px;
+  text-align: center;
+  
+}
+.completed_cell {
+  background-color: #00e833 !important;
+  width:100px;
+  padding: 0px 10px 0px 10px !important;
+  border-radius: 10px;
+  font-family: Inter;
+font-size: 15px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.02em;
+text-align: left;
+  
+}
+.col{
+  font-family: Inter;
+font-size: 15px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+.cardtitle {
+  margin-left:30px;
+  color: #2b464f;
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 10px;
+}
